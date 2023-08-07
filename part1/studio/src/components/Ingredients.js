@@ -1,7 +1,7 @@
 import styles from './Ingredients.module.css';
 
 export default function RecipeIngredients() {
-  let ingredients = ["2 large eggs", "3/4 cup milk", "1/2 cup water", "1 cup flour", "3 tablespoons melted butter"];
+  let ingredients = ["2 large eggs", "3/4 cup milk", "1/2 cup water", "1 cup flour", "3 tablespoons melted butter", "1/4 teaspoon kosher salt"];
 
   return(
     <div>
@@ -12,6 +12,7 @@ export default function RecipeIngredients() {
         <li>{ingredients[2]}</li>
         <li>{ingredients[3]}</li>
         <li>{ingredients[4]}</li>
+        <li>{ingredients[5]}</li>
       </ul>
  </div>
   )

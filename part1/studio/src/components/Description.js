@@ -11,7 +11,7 @@ function RecipeAuthor() {
       <img src = {authorPhoto} alt = "Alton Brown" className = {StyleSheet.imageUpdates} />
       <div>
         <h3>{authorName}</h3>
-        <a href = {authorLink}>Alton Brown</a>
+        <a href = {authorLink}>Alton Brown - Crepes</a>
       </div>
     </div>
   )
