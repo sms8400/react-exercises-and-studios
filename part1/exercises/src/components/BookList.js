@@ -1,15 +1,15 @@
 export default function BookList() {
-   let pageTitle = "shrug";
-   let book1 = "google.com";
-   let book2 = "";
-   let book3 = "";
+   let pageTitle = "Book List";
+   let book1 = "https://mpd-biblio-covers.imgix.net/9781250826794.jpg";
+   let book2 = "https://mpd-biblio-covers.imgix.net/9781250196552.jpg";
+   let book3 = "https://mpd-biblio-covers.imgix.net/9781250213594.jpg";
 
    return (
       <div>
-      <h3>{pageTitle}</h3>
-      <img src={book1} alt="Romantic Comedy by Curtis Sittenfield" />
-      <img src={book2} alt="Tress of the Emerald Sea by Brandon Sanderson" />
-      <img src={book3} alt="The London Seance Society by Sarah Penner" />
-      </div>    
+         <h3>{pageTitle}</h3>
+         <img src={book1} width = "10%" alt="Witch King, by Martha Wells" />
+         <img src={book2} width = "10%" alt="The Book of Gems, by Fran Wilde" />
+         <img src={book3} width = "10%" alt="Across the Green Grass Fields, by Seanan McGuire" />
+      </div>      
    );
 }
