@@ -4,5 +4,5 @@
     }
     
     .imageUpdates {
-       object-fit: contain;
+       object-fit: center;
     }
