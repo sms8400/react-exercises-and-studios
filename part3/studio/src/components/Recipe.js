@@ -1,11 +1,11 @@
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://sallysbakingaddiction.com/about/";
+   let authorPhoto = "https://sallysbakingaddiction.com/wp-content/uploads/2021/08/Sally-McKenney-680x452.jpg";
+   let authorName = "Sally";
 
    return (
       <div>
-         <img src={authorPhoto} alt = "" style={{objectFit: "contain", borderRadius: "50%"}} />
+         <img src={authorPhoto} alt = "Sally" style={{objectFit: "contain", borderRadius: "50%"}} width="200px" />
          <div>
             <h3>{authorName}</h3>
             <a href={authorLink}></a> 
@@ -15,7 +15,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ["all-purpose flour", "granulated sugar", "salt", "platinum yeat from red star", "whole milk"];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -47,7 +47,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://sallysbakingaddiction.com/wp-content/uploads/2013/12/giant-cinnamon-roll-cake-4.jpg" alt="Giant Cinnamon Roll Cake" className="imageUpdates" width="200px"/>
    );
 }
 
